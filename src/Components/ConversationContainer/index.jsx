@@ -8,7 +8,7 @@ const ConversationContainer = (props) => {
             return <div className="backend-message">{message.message}</div>;
         }
     };
-
+    
     return (
         <div className="chatbox">
             {props.messageList.map((message, index) => (

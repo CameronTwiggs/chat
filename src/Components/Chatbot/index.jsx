@@ -36,6 +36,7 @@ const Chatbot = (props) => {
 
     const handleMessageChange = (e) => {
         e.preventDefault();
+        console.log(e.target.value);
         setCurrentMessage(e.target.value); 
     };
 
